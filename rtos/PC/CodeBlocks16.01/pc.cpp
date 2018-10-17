@@ -13,6 +13,8 @@
  */
 #define _CRT_SECURE_NO_WARNINGS
 #include "includes.h"
+#include<conio.h>
+
 
 BOOLEAN lock=FALSE;
 HANDLE  hStdOut = NULL;
@@ -82,7 +84,7 @@ BOOLEAN PC_GetKey(INT16S *c)
    * Returns     : None
    *********************************************************************************************************
  */
-void PC_DispStr(INT8U x, INT8U y, INT8U * s, INT8U color)
+void PC_DispStr(INT8U x, INT8U y, const char * s, INT8U color)
 {   COORD pos;
 
 #ifdef DEBUG_PC

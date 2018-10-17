@@ -68,7 +68,7 @@
 
 void PC_DispChar(INT8U x, INT8U y, INT8U c, INT8U color);
 void PC_DispClrScr(INT8U bgnd_color);
-void PC_DispStr(INT8U x, INT8U y, INT8U * s, INT8U color);
+void PC_DispStr(INT8U x, INT8U y, const char * s, INT8U color);
 
 void PC_ElapsedInit(void);
 void PC_ElapsedStart(INT8U n);

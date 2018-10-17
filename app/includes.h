@@ -15,13 +15,13 @@
 #include    <ctype.h>
 #include    <stdlib.h>
 
-//#include    "mmsystem.h"
 #include    <app_cfg.h>
 #include    <ucos_ii.h>
-#include    "pc.h"
 
 
 #if OS_VIEW_MODULE
 #include    <os_viewc.h>
 #include    <os_view.h>
 #endif
+
+#include    <pc.h>
